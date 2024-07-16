@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class EndToEndTC {
@@ -26,7 +27,12 @@ public class EndToEndTC {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[text()=' Login ']")).click();
 		Thread.sleep(2000);
+	}
 
+	@Test(priority = 3)
+	public void validateHomePageTitle() {
+		String actualTitle = driver.getTitle();
+		Assert.assertEquals(actualTitle, "OrangeHRM");
 	}
 
 }
