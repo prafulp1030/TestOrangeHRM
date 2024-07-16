@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-16T20:40:11 IST" name="Default suite" finished-at="2024-07-16T20:40:29 IST" duration-ms="18049">
+  <suite started-at="2024-07-16T20:44:18 IST" name="Default suite" finished-at="2024-07-16T20:44:35 IST" duration-ms="16835">
     <groups>
     </groups>
-    <test started-at="2024-07-16T20:40:11 IST" name="Default test" finished-at="2024-07-16T20:40:29 IST" duration-ms="18049">
+    <test started-at="2024-07-16T20:44:18 IST" name="Default test" finished-at="2024-07-16T20:44:35 IST" duration-ms="16835">
       <class name="Tutorial9.EndToEndTC">
-        <test-method signature="setUp()[pri:0, instance:Tutorial9.EndToEndTC@5119fb47]" started-at="2024-07-16T20:40:11 IST" name="setUp" finished-at="2024-07-16T20:40:19 IST" duration-ms="8438" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:Tutorial9.EndToEndTC@7193666c]" started-at="2024-07-16T20:44:18 IST" name="setUp" finished-at="2024-07-16T20:44:25 IST" duration-ms="6674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginFunctionality()[pri:1, instance:Tutorial9.EndToEndTC@5119fb47]" started-at="2024-07-16T20:40:19 IST" name="validateLoginFunctionality" finished-at="2024-07-16T20:40:29 IST" duration-ms="9513" status="PASS">
+        <test-method signature="validateLoginFunctionality()[pri:1, instance:Tutorial9.EndToEndTC@7193666c]" started-at="2024-07-16T20:44:25 IST" name="validateLoginFunctionality" finished-at="2024-07-16T20:44:34 IST" duration-ms="9331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFunctionality -->
-        <test-method signature="validateHomePageTitle()[pri:3, instance:Tutorial9.EndToEndTC@5119fb47]" started-at="2024-07-16T20:40:29 IST" name="validateHomePageTitle" finished-at="2024-07-16T20:40:29 IST" duration-ms="39" status="PASS">
+        <test-method signature="validateHomePageTitle()[pri:3, instance:Tutorial9.EndToEndTC@7193666c]" started-at="2024-07-16T20:44:34 IST" name="validateHomePageTitle" finished-at="2024-07-16T20:44:34 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageTitle -->
-        <test-method signature="validateHomePageurl()[pri:4, instance:Tutorial9.EndToEndTC@5119fb47]" started-at="2024-07-16T20:40:29 IST" name="validateHomePageurl" finished-at="2024-07-16T20:40:29 IST" duration-ms="17" status="PASS">
+        <test-method signature="validateHomePageurl()[pri:4, instance:Tutorial9.EndToEndTC@7193666c]" started-at="2024-07-16T20:44:34 IST" name="validateHomePageurl" finished-at="2024-07-16T20:44:34 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageurl -->
+        <test-method signature="validatePIMPageurl()[pri:5, instance:Tutorial9.EndToEndTC@7193666c]" started-at="2024-07-16T20:44:34 IST" name="validatePIMPageurl" finished-at="2024-07-16T20:44:35 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMPageurl -->
       </class> <!-- Tutorial9.EndToEndTC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
