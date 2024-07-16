@@ -34,5 +34,11 @@ public class EndToEndTC {
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, "OrangeHRM");
 	}
+	
+	@Test(priority = 4)
+	public void validateHomePageurl() {
+		String actualUrl= driver.getCurrentUrl();
+		Assert.assertEquals(actualUrl.contains("orange"), true);
+	}
 
 }
