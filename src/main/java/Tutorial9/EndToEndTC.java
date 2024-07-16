@@ -40,5 +40,12 @@ public class EndToEndTC {
 		String actualUrl= driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl.contains("orange"), true);
 	}
+	
+	@Test(priority = 5)
+	public void validatePIMPageurl() {
+		driver.findElement(By.xpath("//span[text()='PIM']")).click();
+		String actualUrl= driver.getCurrentUrl();
+		Assert.assertEquals(actualUrl.contains("pim"), true);
+	}
 
 }
